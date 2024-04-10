@@ -9,6 +9,10 @@ for (let i = 0; i < 16; i++) {
     }
 }
 
-
+grid.addEventListener("mouseover", (e) => {
+    const square = e.target;
+    square.setAttribute("class", "hovered square");
+    console.log(square);
+})
 
 console.log(grid);

@@ -41,8 +41,13 @@ img {
     height: 45vw;
     background-color: aliceblue;
 }
+
 .square {
     flex-basis: 6.25%;
     height: 6.25%;
     border: 1px solid teal;
+}
+.hovered {
+    background-color: gray;
+    transition: ease-in-out;
 }
